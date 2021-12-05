@@ -1,0 +1,35 @@
+.FooterContainer {
+    color: whitesmoke;
+    font-family: 'Proza Libre', sans-serif;
+    background-color: pink;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    nav {
+        font-size: 0.5rem;
+        margin-top: 1rem;
+        width: 20rem;
+        h2 {
+            font-size: 0.75rem;
+            list-style-type: none;
+            text-decoration: none; 
+            padding: 0rem 1.75rem; 
+            display: inline-block;
+        }
+        ul {
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none; 
+                    color: whitesmoke;
+                    padding-left: 0rem;
+                    &:hover {
+                        text-decoration: none;
+                        color: orangered;    
+                    }
+                }
+            }
+        }
+    }
+    
+}

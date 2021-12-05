@@ -1,0 +1,30 @@
+/*Mapas*/
+
+$imagenescarruseles: (
+    alturacarrusel: 25rem
+);
+
+$imageneslinks: (
+ancholinks: 11rem,
+alturalinks: 11rem
+);
+
+$imagenesgrid: (
+anchogrids: 248px,   
+alturagrids: 248px
+);
+
+.d-block {
+    height: map-get($imagenescarruseles, alturacarrusel );
+};
+
+.FotoEnlaceSecundarioItem a img
+{
+    width: map-get($imageneslinks, ancholinks);
+    height: map-get($imageneslinks, alturalinks); 
+}
+
+.Img1 {
+    width: map-get($imagenesgrid, anchogrids);
+    height: map-get($imagenesgrid, alturagrids);
+}

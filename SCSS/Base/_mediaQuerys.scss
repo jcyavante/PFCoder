@@ -1,0 +1,28 @@
+@media (max-width: 319px)
+{
+    .MenuContainer1, .MenuContainer2
+    {
+        color: red;
+        font-family: "F1";
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ListaPrincipal
+    {
+        font-family: "F1";
+        display: flex;
+        flex-direction: column;  
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px)
+{
+    .ListaPrincipal
+    {
+        color:blue;
+        font-family: "F1";
+        display: flex;
+        flex-direction: column;  
+    }
+}

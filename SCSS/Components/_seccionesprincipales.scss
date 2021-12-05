@@ -1,0 +1,56 @@
+body {
+    background-image: url("Multimedia/Imagenes/123.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.GridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(3, 250px);
+    justify-content: center;
+    padding: 60px;
+}
+
+.GridItem, .GridItemImg1 {
+    border: 1px solid black;
+    border-radius: 2rem;
+    list-style: none;
+    font-family: 'Proza Libre', sans-serif;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.30);
+    overflow: hidden;
+}
+
+.GridItem li a {
+    text-decoration: none;
+    color: black;    
+}
+
+.FotoEnlaceSecundarioItem {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ContainerPromos, .ContainerFranquicias {
+    display: flex;
+    align-items: center;
+}
+
+.ItemSucursal {
+    margin: 2rem;
+}
+
+.ItemSucursal iframe {
+    padding-top: 1.75rem;
+}
+
+.EnlaceMiCuenta, .EnlaceCarrito {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#carouselExampleControls {
+    z-index: -3;
+}

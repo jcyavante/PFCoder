@@ -1,0 +1,36 @@
+/*Inicio Declaración de Fuentes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@500&display=swap');    
+
+@font-face 
+{
+    font-family: "F1";
+    src: url("Multimedia/Fuentes/Fuente1.ttf"); 
+    font-display: swap;
+}
+
+@font-face 
+{
+    font-family: "F2";
+    src: url("Multimedia/Fuentes/Fuente2.ttf");
+    font-display: swap;
+}
+
+@font-face 
+    {
+        font-family: "F3";
+        src: url("Multimedia/Fuentes/Fuente3.ttf");
+        font-display: swap;
+    }
+/*Fin Declaración de Fuentes*/
+
+/*Inicio Importaciones de SCSS*/
+@import "Components/header";
+@import "Components/footer";
+@import "Components/seccionesprincipales";
+@import "Base/mediaQuerys";
+@import "Base/variables";
+@import "Base/mapas";
+@import "Base/extends";
+@import "Base/mixin";
+/*Fin Importaciones de SCSS*/
