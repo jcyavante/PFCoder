@@ -1,6 +1,5 @@
 @mixin encabezados ( $tamanio, $margin, $padding, $decoracion) {
 font-family: 'Proza Libre', sans-serif;
-color: whitesmoke;
 font-size: $tamanio;
 margin: $margin;
 padding: $padding;
@@ -8,44 +7,54 @@ text-decoration: $decoracion;
 }
 
 .h3Servicios {
-    @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none )
+    @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none);
+    color: whitesmoke;
 }
 
 .h3CalculoEnvio {
-    @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none )
+    @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none );
+    color: whitesmoke;
 }
 
 .h3Politicas {
-    @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none )
+    @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none );
+    color: whitesmoke;
 }
 
 .h4Franquicias {
-    @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none )
+    @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none );
+    color: whitesmoke;
 }
 
 .h4Servicios {
-    @include encabezados(1.4rem, 0rem, 0.75rem, none )
+    @include encabezados(1.4rem, 0rem, 0.75rem, none );
+    color: black;
 }
 
 .h4Politicas {
-    @include encabezados(1.15rem, 0rem, 0.75rem, none )
+    @include encabezados(1.15rem, 0rem, 0.75rem, none );
+    color: whitesmoke;
 } 
 
 .h6Promo {
-    @include encabezados(1.15rem, 0rem, 0.75rem, none )
+    @include encabezados(1.15rem, 0rem, 0.75rem, none );
+    color: whitesmoke;
 }
 
 .h4Nosotros{
-    @include encabezados(1.15rem, 0rem, 0.75rem, none )
+    @include encabezados(1.15rem, 0rem, 0.75rem, none );
+    color: whitesmoke;
 }
 
 .h4CalculoEnvio a {
     @include encabezados(1.2rem, 0rem, 0rem, none );
     text-decoration-style: bold;
+    color: whitesmoke;
 }
 
 p {
-    @include encabezados(0.9rem, 0rem, 0.75rem, none )
+    @include encabezados(0.9rem, 0rem, 0.75rem, none );
+    color: black;
 }
 
 .h4Sucursales {
