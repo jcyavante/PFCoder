@@ -230,6 +230,10 @@ body {
   z-index: -3;
 }
 
+.card-text {
+  color: black;
+}
+
 @media (max-width: 319px) {
   .MenuContainer1, .MenuContainer2 {
     color: red;
