@@ -58,3 +58,14 @@ body {
 .card-text {
     color: black;
 }
+
+.card-group{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.card {
+    margin: 10rem;
+    padding: 10rem;
+}
