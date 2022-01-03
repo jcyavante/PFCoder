@@ -159,6 +159,7 @@ header section .MenuContainer2 .ListaPrincipal div li a:hover {
   text-decoration: none;
   padding: 0rem 1.75rem;
   display: inline-block;
+  text-align: center;
 }
 .FooterContainer nav ul li {
   list-style: none;
@@ -174,7 +175,7 @@ header section .MenuContainer2 .ListaPrincipal div li a:hover {
 }
 
 body {
-  background-image: url("Multimedia/Imagenes/123.jpg");
+  background-image: url("../Multimedia/Imagenes/321.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -232,6 +233,18 @@ body {
 
 .card-text {
   color: black;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 1rem;
+  opacity: 0.9;
 }
 
 @media (max-width: 319px) {
@@ -316,43 +329,43 @@ html {
 }
 
 .h2MiCuenta {
-  color: whitesmoke;
+  color: gray;
 }
 
 .h2Carrito {
-  color: whitesmoke;
+  color: gray;
 }
 
 .h2Productos {
-  color: whitesmoke;
+  color: gray;
 }
 
 .h2Servicios {
-  color: black;
+  color: gray;
 }
 
 .h2CalculoEnvio {
-  color: whitesmoke;
+  color: gray;
 }
 
 .h2Politicas {
-  color: whitesmoke;
+  color: gray;
 }
 
 .h3Nosotros {
-  color: whitesmoke;
+  color: gray;
 }
 
 .h2Franquicias {
-  color: whitesmoke;
+  color: gray;
 }
 
 .h2Sucursales {
-  color: whitesmoke;
+  color: gray;
 }
 
 .h4Promo {
-  color: whitesmoke;
+  color: gray;
 }
 
 .h3Servicios {
@@ -361,7 +374,9 @@ html {
   margin: 0.25rem 0rem;
   padding: 0rem;
   text-decoration: none;
-  color: black;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  color: gray;
 }
 
 .h3CalculoEnvio {
@@ -370,7 +385,9 @@ html {
   margin: 0.25rem 0rem;
   padding: 0rem;
   text-decoration: none;
-  color: whitesmoke;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  color: gray;
 }
 
 .h3Politicas {
@@ -379,7 +396,9 @@ html {
   margin: 0.25rem 0rem;
   padding: 0rem;
   text-decoration: none;
-  color: whitesmoke;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  color: gray;
 }
 
 .h4Franquicias {
@@ -388,7 +407,9 @@ html {
   margin: 0.25rem 0rem;
   padding: 0rem;
   text-decoration: none;
-  color: whitesmoke;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  color: gray;
 }
 
 .h4Servicios {
@@ -397,7 +418,9 @@ html {
   margin: 0rem;
   padding: 0.75rem;
   text-decoration: none;
-  color: black;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  color: gray;
 }
 
 .h4Politicas {
@@ -406,7 +429,9 @@ html {
   margin: 0rem;
   padding: 0.75rem;
   text-decoration: none;
-  color: whitesmoke;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  color: gray;
 }
 
 .h6Promo {
@@ -415,7 +440,9 @@ html {
   margin: 0rem;
   padding: 0.75rem;
   text-decoration: none;
-  color: whitesmoke;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  color: gray;
 }
 
 .h4Nosotros {
@@ -424,7 +451,9 @@ html {
   margin: 0rem;
   padding: 0.75rem;
   text-decoration: none;
-  color: whitesmoke;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  color: gray;
 }
 
 .h4CalculoEnvio a {
@@ -433,8 +462,10 @@ html {
   margin: 0rem;
   padding: 0rem;
   text-decoration: none;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
   text-decoration-style: bold;
-  color: whitesmoke;
+  color: gray;
 }
 
 p {
@@ -443,12 +474,14 @@ p {
   margin: 0rem;
   padding: 0.75rem;
   text-decoration: none;
-  color: black;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  color: gray;
 }
 
 .h4Sucursales {
   font-size: 1rem;
-  color: black;
+  color: gray;
 }
 
 /*Fin Importaciones de SCSS*/

@@ -4,60 +4,62 @@ font-size: $tamanio;
 margin: $margin;
 padding: $padding;
 text-decoration: $decoracion;
+text-align: center;
+-webkit-text-stroke: 1px black;
 }
 
 .h3Servicios {
     @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none);
-    color: black;
+    color: gray;
 }
 
 .h3CalculoEnvio {
     @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none );
-    color: whitesmoke;
+    color: gray;
 }
 
 .h3Politicas {
     @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none );
-    color: whitesmoke;
+    color: gray;
 }
 
 .h4Franquicias {
     @include encabezados(1.25rem, 0.25rem 0rem, 0rem, none );
-    color: whitesmoke;
+    color: gray;
 }
 
 .h4Servicios {
     @include encabezados(1.4rem, 0rem, 0.75rem, none );
-    color: black;
+    color: gray;
 }
 
 .h4Politicas {
     @include encabezados(1.15rem, 0rem, 0.75rem, none );
-    color: whitesmoke;
+    color: gray;
 } 
 
 .h6Promo {
     @include encabezados(1.15rem, 0rem, 0.75rem, none );
-    color: whitesmoke;
+    color: gray;
 }
 
 .h4Nosotros{
     @include encabezados(1.15rem, 0rem, 0.75rem, none );
-    color: black;
+    color: gray;
 }
 
 .h4CalculoEnvio a {
     @include encabezados(1.2rem, 0rem, 0rem, none );
     text-decoration-style: bold;
-    color: whitesmoke;
+    color: gray;
 }
 
 p {
     @include encabezados(0.9rem, 0rem, 0.75rem, none );
-    color: black;
+    color: gray;
 }
 
 .h4Sucursales {
     font-size: 1rem;
-    color:black;
+    color:gray;
 }
