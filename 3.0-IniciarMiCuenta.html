@@ -7,6 +7,9 @@
         <!--Inicio Keywords-->
         <meta name="keywords" content="Bicicleta, Bicicleteria, Bicicletuda, Cuenta Bicicletuda">
         <!--Fin Keywords-->
+        <!-- Inicio declaración BOOTSTRAP CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- Fin declaración BOOTSTRAP CCS-->
         <!-- Inicio declaración SASS CSS-->
         <link rel="stylesheet" href="CSS/style.css">
         <!-- Fin declaración SASS CCS-->
@@ -45,9 +48,25 @@
             <div class="MiCuenta">
                 <h2 class="h2MiCuenta">Inicio de Sesión</h2>
                 <!--Aca va un cuadro para ingresar Email y Controseña--> 
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">No compartiremos tu mail con nadie más.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Recordar mi mail</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                </form>
                 <!--Aca va Botón Iniciar Sesion que inicia sesion y redirige a home--> 
                 <a class="EnlaceMiCuenta" href="3.1-CrearMiCuenta.html">Crear Cuenta</a>
-                <h2 class="h2MiCuenta">Ir a Mis Datos</h2>
+                <h2 class="EnlaceMiCuenta">Ir a Mis Datos</h2>
                 <!--Aca va Botón Mis Datos y redirige un html que te permite editar y ver tus datos ingresados en la creacion de cuenta--> 
             </div>
         </main>
@@ -99,6 +118,12 @@
             </nav>
         </footer>
     <!--Fín Pie de Página-->
+
+    <!-- Inicio declaración BOOTSTRAP JS-->
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+     <!-- Fin declaración BOOTSTRAP JS-->
+
       
 </body>
 </html>

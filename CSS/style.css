@@ -247,6 +247,10 @@ body {
   opacity: 0.9;
 }
 
+.form-label {
+  color: gray;
+}
+
 @media (max-width: 319px) {
   .MenuContainer1, .MenuContainer2 {
     color: red;
@@ -306,7 +310,7 @@ html {
   transition: all 5s;
 }
 
-.h2Franquicias, .h3Nosotros, .h2Politicas, .h2CalculoEnvio, .h2Servicios, .h2Productos, .h2Carrito, .h2MiCuenta {
+.h2Franquicias, .h3Nosotros, .h2Politicas, .h2CalculoEnvio, .h2Servicios, .h2Productos, .h2Carrito, .EnlaceMiCuenta:hover, .EnlaceCarrito:hover, .EnlaceEnvios:hover, .EnlaceMiCuenta, .EnlaceCarrito, .EnlaceEnvios, .h2MiCuenta {
   font-family: "Proza Libre", sans-serif;
   font-size: 1.75rem;
   margin: 0.5rem 0rem;
@@ -330,6 +334,17 @@ html {
 
 .h2MiCuenta {
   color: gray;
+}
+
+.EnlaceMiCuenta, .EnlaceCarrito, .EnlaceEnvios {
+  color: gray;
+  font-size: 1rem;
+}
+
+.EnlaceMiCuenta:hover, .EnlaceCarrito:hover, .EnlaceEnvios:hover {
+  color: gray;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 .h2Carrito {
@@ -477,6 +492,7 @@ p {
   text-align: center;
   -webkit-text-stroke: 1px black;
   color: gray;
+  text-align: justify;
 }
 
 .h4Sucursales {

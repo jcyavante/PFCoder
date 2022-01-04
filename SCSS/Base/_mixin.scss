@@ -57,6 +57,7 @@ text-align: center;
 p {
     @include encabezados(0.9rem, 0rem, 0.75rem, none );
     color: gray;
+    text-align: justify;
 }
 
 .h4Sucursales {

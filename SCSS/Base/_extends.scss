@@ -59,6 +59,19 @@
     color: gray;
 };
 
+.EnlaceMiCuenta, .EnlaceCarrito, .EnlaceEnvios {
+    @extend %textosh2f1;
+    color: gray;
+    font-size: 1rem;
+};
+
+.EnlaceMiCuenta:hover, .EnlaceCarrito:hover, .EnlaceEnvios:hover {
+    @extend %textosh2f1;
+    color: gray;
+    font-size: 1rem;
+    text-decoration: none;
+};
+
 .h2Carrito {
     @extend %textosh2f1;
     color: gray;
