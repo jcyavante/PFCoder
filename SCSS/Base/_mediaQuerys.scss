@@ -1,28 +1,59 @@
-@media (max-width: 319px)
+@media (max-width: 800px)
 {
-    .MenuContainer1, .MenuContainer2
-    {
-        color: red;
-        font-family: "F1";
+      
+    .busca {
+        display: none;
+    }
+
+    header .MenuContainer1 .Principal #Nombre {
+        font-size: 1rem;
+        letter-spacing: 0.25rem;
+      }
+
+    header .MenuContainer1 .Principal .LogoPrincipal{
+        width: 3rem;
+        height: 3rem;
+        }
+
+    .MenuContainer2 .ListaPrincipal {
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .FotoEnlaceSecundarioItem {
+        flex-wrap: wrap;
+    }
+
+    .FotoEnlaceSecundarioItem .ImagenesLink {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .FooterContainer {
         display: flex;
         flex-direction: column;
     }
-
-    .ListaPrincipal
-    {
-        font-family: "F1";
-        display: flex;
-        flex-direction: column;  
+    .container .d-block {
+        height: 10rem;
     }
+
 }
 
-@media (min-width: 320px) and (max-width: 479px)
-{
-    .ListaPrincipal
-    {
-        color:red;
-        font-family: "F1";
-        display: flex;
-        flex-direction: column;  
+@media (max-width: 600px) {
+    .Menu {
+        flex-direction: column;
+        margin-left: 1rem;
     }
+    header .MenuContainer1 .Principal #Nombre {
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+        margin-left: 0.5rem;
+      }
+
+    header .MenuContainer1 .Principal .LogoPrincipal{
+        width: 2rem;
+        height: 2rem;
+        }
 }
