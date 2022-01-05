@@ -39,6 +39,57 @@
         height: 10rem;
     }
 
+    .ContainerSucursal {
+        display: flex;
+        flex-direction: column;  
+    }
+
+       .mapa {
+        display: none;
+    }
+    .GridContainer .GridItemImg1 {
+        display: none;
+    }
+    .GridContainer .GridItem {
+        flex-wrap: wrap;
+    }
+
+    .GridContainer {
+        grid-template-columns: repeat(1, 250px);
+        grid-template-rows: repeat(9, 250px);
+      }
+
+    .card-group {
+        flex-direction: column;
+    }
+
+    .card-img-top{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .card-title{
+        font-size: 1rem;
+    }
+
+    .card-text{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    .card {
+        width: 12rem;
+        margin: auto;
+    }
+
+    .ContainerFranquicias .imgfranquicia, .ContainerPromos .imgpromo {
+        display: none;
+    }
+
+    .list-group-item{
+        font-size: 0.5rem;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -50,10 +101,10 @@
         font-size: 0.75rem;
         letter-spacing: 0.25rem;
         margin-left: 0.5rem;
-      }
+    }
 
     header .MenuContainer1 .Principal .LogoPrincipal{
         width: 2rem;
         height: 2rem;
-        }
+    }
 }
