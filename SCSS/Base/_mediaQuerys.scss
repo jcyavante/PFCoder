@@ -83,7 +83,7 @@
         text-align: center;
     }
 
-    .card {
+    .ContainerCards .card-group.card {
         width: 12rem;
         margin: auto;
     }
@@ -95,7 +95,6 @@
     .list-group-item{
         font-size: 0.5rem;
     }
-
 }
 
 @media (max-width: 600px) {
@@ -103,7 +102,7 @@
         flex-direction: column;
         margin-left: 1rem;
     }
-    
+
     header .MenuContainer1 .Principal #Nombre {
         font-size: 0.75rem;
         letter-spacing: 0.25rem;
