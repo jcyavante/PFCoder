@@ -8,19 +8,22 @@
     header .MenuContainer1 .Principal #Nombre {
         font-size: 1rem;
         letter-spacing: 0.25rem;
-      }
+    }
 
     header .MenuContainer1 .Principal .LogoPrincipal{
         width: 3rem;
         height: 3rem;
-        }
+    }
 
     .MenuContainer2 .ListaPrincipal {
-        
         display: flex;
         flex-direction: column;
         text-align: center;
     }
+
+    .MenuContainer1{
+        flex-wrap: wrap;
+    }  
 
     .FotoEnlaceSecundarioItem {
         flex-wrap: wrap;
@@ -35,6 +38,7 @@
         display: flex;
         flex-direction: column;
     }
+
     .container .d-block {
         height: 10rem;
     }
@@ -44,12 +48,14 @@
         flex-direction: column;  
     }
 
-       .mapa {
+    .mapa {
         display: none;
     }
+
     .GridContainer .GridItemImg1 {
         display: none;
     }
+
     .GridContainer .GridItem {
         flex-wrap: wrap;
     }
@@ -57,7 +63,7 @@
     .GridContainer {
         grid-template-columns: repeat(1, 250px);
         grid-template-rows: repeat(9, 250px);
-      }
+    }
 
     .card-group {
         flex-direction: column;
@@ -97,6 +103,7 @@
         flex-direction: column;
         margin-left: 1rem;
     }
+    
     header .MenuContainer1 .Principal #Nombre {
         font-size: 0.75rem;
         letter-spacing: 0.25rem;
